@@ -78,14 +78,23 @@ cd CleanArchitectureJava
 ```
 
 2. Open the project in your IDE (VS Code or NetBeans).
-
+3. 
    Install the necessary dependencies:
-
         -If you are using VS Code, the Maven extension should automatically handle dependencies.
         -If not, run the following Maven command to download and install dependencies:
-```
-bash
-mvn clean install
-```
+
+               ```
+               bash
+               mvn clean install
+               ```
+## Running the Application
+- Open the UserApplication.java file in VS Code.
+
+- Click the Run button (a green play icon) in the top-right corner of the editor.
+
+   -Alternatively, press Ctrl + F5 to run the application.
+
+- The application will start on http://localhost:8080.
+
 
 
