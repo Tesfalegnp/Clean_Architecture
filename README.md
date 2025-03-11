@@ -37,7 +37,7 @@ To check if Java and Maven are installed, run the following commands in your ter
 ```bash
 java -version
 mvn -version
-
+```
 CleanArchitectureJava/
 ├── pom.xml                # Maven configuration and dependencies
 ├── src/
