@@ -38,3 +38,29 @@ To check if Java and Maven are installed, run the following commands in your ter
 java -version
 mvn -version
 ```
+## project-structure
+CleanArchitectureJava/
+├── pom.xml                # Maven configuration and dependencies
+├── src/
+│   └── main/
+│       └── java/
+│           └── com/
+│               └── example/
+│                   └── cleanarchitecture/
+│                       ├── controllers/  # API Controllers
+│                       ├── entities/     # Domain Models (e.g., User)
+│                       ├── repositories/ # Data Repositories
+│                       └── usecases/     # Business Logic (e.g., CreateUser)
+└── target/                # Generated files (build output)
+
+
+## setting-up-the-project
+ -1, clone repository:
+   git clone https://github.com/your-username/CleanArchitectureJava.git
+-2, Navigate into the project folder:
+  cd CleanArchitectureJava
+-3, Open the project in your IDE (VS Code or NetBeans).
+-4, Install the necessary dependencies:
+    -If you are using VS Code, the Maven extension should automatically handle dependencies.
+    -If not, run the following Maven command to download and install dependencies:
+
